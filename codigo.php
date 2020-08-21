@@ -10,6 +10,4 @@ $mensaje="
 <strong>consulta:</strong> $consulta <br/> <br/>
 ";
 
-mail("bust.tam@gmail.com", "consulta Web Site", $mensaje, "From: $nombre <$mail>\nReply-To:$mail\nContent-Type: text/html; charset=iso-8859-1\n");
-
-?>
+mail("bust.tam@gmail.com", "consulta Web Site <$mensaje>" "From: $nombre <$mail>\nReply-To:$mail\nContent-Type: text/html; charset=iso-8859-1\n");?>
